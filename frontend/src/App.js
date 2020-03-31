@@ -1,11 +1,11 @@
 import React from 'react';
-import Header from './Header'
+import Logon from './pages/Logon';
+
+import Routes from './router'
 
 function App() {
   return (
-    <Header>
-      <p> Conteúdo qualquer</p>
-    </Header>
+    <Routes />
   );
 }
 
