@@ -15,9 +15,10 @@ export default function Logon(){
                     <h1> Faça seu Logon</h1>
 
                     <input type="text" placeholder="Sua ID" />
-                    <button className="button" type="submit">Entrar</button>
+
+                    <input className="button" type="submit" style={{marginTop:8 }}value="Entrar" />
                    
-                    <Link to="/register">
+                    <Link className="back-link" to="/register">
                         <FiLogIn size={16} color="#E02041" />
                         Não tenho Acesso
                     </Link>
