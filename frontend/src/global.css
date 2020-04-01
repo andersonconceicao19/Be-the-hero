@@ -15,6 +15,7 @@ body{
 input, button, textarea {
     font: 400 18px sans-serif;
     
+    
 }
 button {
     cursor: pointer;
@@ -32,7 +33,7 @@ form textarea{
     width: 100%;
     resize: vertical;
     height: 140px;
-    color: #3333;
+    color: #333333;
     border: 1px solid #dcdce6;
     border-radius: 8px;
     padding: 16px 24px;
